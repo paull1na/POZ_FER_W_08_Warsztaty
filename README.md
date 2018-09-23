@@ -1,2 +1,2 @@
-# warsztat_projekt
-Projekt strony, warsztaty zaawansowany HTML i CSS
+# Zadanie z warsztatu CodersLab
+Zadanie polega na stworzeniu statycznej strony internetowej według dostarczonego designu.
