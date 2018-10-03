@@ -2,13 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Verdana, sans-serif;
+    font-family: Arial, Helvetica, sans-serif
 }
 header, footer, section {
-    width: 100%;
-}
-.menu {
-    background-color: #000000;
     width: 100%;
 }
 header {
@@ -17,7 +13,7 @@ header {
     background-size: contain;
     background-position: left;
     width: auto;
-    height: 500px;
+    height: 700px;
 }
 header .menu {
     width: 100%;
@@ -56,18 +52,17 @@ nav {
     margin:0;
 }
 .image_header {
-    width: 30%;
-    height: 400px;
+    width: 50%;
+    height: 550px;
     display: inline-block;
-    vertical-align: middle;
-    margin-top: 50px;
-    margin-left:15%;
-    background-image: url("../images/black_chair.png");
+    margin-top: 0;
+    background-image: url(../images/black_chair.png);
     background-repeat: no-repeat;
     background-size: cover;
+    vertical-align: middle;
 }
 .info_header {
-    width: 25%;
+    width: 35%;
     text-align: center;
     vertical-align: middle;
     display: inline-block;
@@ -76,11 +71,70 @@ nav {
 }
 .container {
     margin: auto;
-    width: 90%;
+    width: 80%;
     border: 1px solid red;
 }
 .info_header h1 {
-    font-size: 36px;
+    font-size: 41px;
     font-weight: normal;
     padding-bottom: 20px;
+}
+.info_header p {
+    font-size: 19px;
+    color: dimgrey;
+
+}
+.big_header {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+.big_header:before{
+    content: "<";
+    width: auto;
+    height: 100px;
+    color: #27C6B1;
+    font-size: 80px;
+}
+.big_header:after{
+    content: ">";
+    width: auto;
+    height: 100px;
+    color: #27C6B1;
+    font-size: 80px;
+}
+button {
+    width: 300px;
+    height: 60px;
+    border-radius: 10px;
+    margin: 40px;
+    background: #27C6B1;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: white;
+}
+.box1 {
+    width: 30%;
+    height: 350px;
+    background-image: url(../images/box1_img.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+.box2 {
+    width: 30%;
+    height: 350px;
+    background-image: url(../images/box2_img.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+.box3 {
+    width: 30%;
+    height: 350px;
+    display: inline-block;
+    vertical-align: top;
+}
+.box1, .box2, .box3 {
+    margin: 20px;
 }
